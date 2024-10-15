@@ -1,0 +1,78 @@
+/* Custom Styles */
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/jobfair-hero.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero .display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero .lead {
+    font-size: 1.3rem;
+}
+
+.hero .btn {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+
+/* About Section */
+#about h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Jobs Section */
+#jobs .card {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+#jobs .card:hover {
+    transform: translateY(-5px);
+}
+
+#jobs .card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+
+    #about h2 {
+        font-size: 2rem;
+    }
+}
