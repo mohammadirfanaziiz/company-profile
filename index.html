@@ -3,122 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Job Fair 2024</title>
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <title>Ini Halaman Home</title>
 </head>
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Job Fair 2024</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#jobs">Jobs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<section class="hero bg-primary text-white text-center py-5">
-    <div class="container">
-        <h1 class="display-4">Welcome to Job Fair 2024</h1>
-        <p class="lead">Selamat Datang di Job Fair 2024!
-            Temukan peluang karier impian Anda di sini! Kami hadir untuk menghubungkan para pencari kerja dengan perusahaan-perusahaan terbaik di berbagai industri. Manfaatkan kesempatan ini untuk membangun jaringan profesional, menghadiri sesi wawancara, dan mendapatkan informasi terkini mengenai dunia kerja. Bersiaplah meraih masa depan yang lebih cerah bersama Job Fair 2024!</p>
-        <a href="#jobs" class="btn btn-outline-light mt-3">See Job Listings</a>
-    </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">About the Event</h2>
-        <p class="text-center mb-5">
-            Job Fair 2024 adalah acara tahunan yang dirancang untuk mempertemukan para pencari kerja dengan berbagai perusahaan terkemuka dari berbagai sektor industri. Dengan menghadirkan lebih dari [jumlah perusahaan] perusahaan dan institusi, Job Fair 2024 menjadi jembatan bagi para profesional, fresh graduate, dan mahasiswa untuk menemukan peluang karier yang sesuai dengan minat dan keterampilan mereka.
-
-Acara ini tidak hanya menyediakan kesempatan untuk melamar pekerjaan secara langsung, tetapi juga memberikan sesi workshop, seminar karier, serta kesempatan networking yang berharga. Para peserta akan mendapatkan wawasan mengenai tren terbaru di dunia kerja, keterampilan yang paling dicari, dan tips sukses dalam proses rekrutmen.
-
-Bergabunglah dengan ribuan peserta lainnya untuk memulai perjalanan karier Anda di Job Fair 2024!
-        </p>
-        <div class="row text-center">
-            <div class="col-md-4 mb-4">
-                <h4 class="mb-3">Location</h4>
-                <p>Convention Center, Jakarta</p>
-            </div>
-            <div class="col-md-4 mb-4">
-                <h4 class="mb-3">Date</h4>
-                <p>25-27 November 2024</p>
-            </div>
-            <div class="col-md-4 mb-4">
-                <h4 class="mb-3">Time</h4>
-                <p>09:00 AM - 05:00 PM</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Jobs Section -->
-<section id="jobs" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center mb-4">Available Job Openings</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Software Engineer</h5>
-                        <p class="card-text">ABC Tech is looking for skilled software engineers to join their dynamic team.</p>
-                        <a href="#" class="btn btn-primary">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Marketing Specialist</h5>
-                        <p class="card-text">Join XYZ Marketing as a Marketing Specialist to enhance their digital presence.</p>
-                        <a href="#" class="btn btn-primary">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Analyst</h5>
-                        <p class="card-text">DEF Analytics is looking for a Data Analyst with strong skills in big data analytics.</p>
-                        <a href="#" class="btn btn-primary">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer id="contact" class="bg-dark text-white text-center py-4">
-    <p>&copy; 2024 Job Fair. All rights reserved.</p>
-    <p>Contact us: <a href="mailto:info@jobfair2024.com" class="text-white">infojobfair2024@cloud.com</a></p>
-</footer>
-
-<!-- Bootstrap JS CDN -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <h1>Ini halaman Login</h1>
+    <form action="./backend/login.php" method="POST">
+        <input type="email" name="email" id="email" placeholder="Email"/>
+        <input type="password" name="password" id="password" placeholder="password"/>
+        <button type="submit">login</button>
+    </form>
 </body>
 </html>
